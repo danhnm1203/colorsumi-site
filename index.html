@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ColorSumi</title>
+<meta name="description" content="ColorSumi, a colour-by-number app. Privacy policy and account deletion.">
+<link rel="stylesheet" href="style.css">
+<script src="lang.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="brand" href="./">Color<span>Sumi</span></a>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="en" aria-pressed="true">EN</button>
+      <button type="button" data-set="vi" aria-pressed="false">VI</button>
+    </div>
+  </header>
+
+  <main>
+    <section data-lang="en">
+      <h1>ColorSumi</h1>
+      <p class="meta">A calm colour-by-number app for iPhone, iPad and Android.</p>
+      <p>Pick a picture, tap a colour, and paint it in with your finger or Apple Pencil. No ads, no tracking. Signing in is optional and only used to carry your progress between devices.</p>
+      <div class="cards">
+        <a class="card" href="privacy/"><strong>Privacy Policy</strong>What the app stores, why, and how to remove it.</a>
+        <a class="card" href="delete-account/"><strong>Delete your account</strong>How to delete your ColorSumi account and the data linked to it.</a>
+      </div>
+    </section>
+
+    <section data-lang="vi" hidden>
+      <h1>ColorSumi</h1>
+      <p class="meta">Ứng dụng tô màu theo số nhẹ nhàng cho iPhone, iPad và Android.</p>
+      <p>Chọn một bức tranh, chạm vào một màu rồi tô bằng tay hoặc Apple Pencil. Không quảng cáo, không theo dõi. Đăng nhập là tuỳ chọn và chỉ dùng để đồng bộ tiến độ giữa các thiết bị.</p>
+      <div class="cards">
+        <a class="card" href="privacy/"><strong>Chính sách quyền riêng tư</strong>Ứng dụng lưu gì, vì sao, và cách xoá.</a>
+        <a class="card" href="delete-account/"><strong>Xoá tài khoản</strong>Cách xoá tài khoản ColorSumi và dữ liệu đi kèm.</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span data-lang="en">Contact: <a href="mailto:support@colorsumi.app">support@colorsumi.app</a></span>
+    <span data-lang="vi" hidden>Liên hệ: <a href="mailto:support@colorsumi.app">support@colorsumi.app</a></span>
+  </footer>
+</div>
+</body>
+</html>
