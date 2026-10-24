@@ -1,11 +1,11 @@
-// Shows one language at a time: ?lang=vi or ?lang=en wins, then the saved choice, then the browser.
+// Shows one language at a time: ?lang=vi or ?lang=en wins, then the saved choice, else English.
 (function () {
   var langs = ['en', 'vi'];
   function pick() {
     var q = new URLSearchParams(location.search).get('lang');
     if (langs.indexOf(q) >= 0) return q;
     try { var s = localStorage.getItem('lang'); if (langs.indexOf(s) >= 0) return s; } catch (e) {}
-    return (navigator.language || '').toLowerCase().indexOf('vi') === 0 ? 'vi' : 'en';
+    return 'en';
   }
   function apply(lang) {
     document.documentElement.lang = lang;

@@ -9,7 +9,7 @@ Static pages for the ColorSumi app, served by GitHub Pages:
 | Delete account | https://danhnm1203.github.io/colorsumi-site/delete-account/ |
 
 Each page is bilingual (EN/VI): `?lang=vi` or `?lang=en` forces a language, otherwise the
-saved choice or the browser language is used.
+saved choice is used, defaulting to English.
 
 Used by Google Play Console (privacy policy, Data safety account-deletion URL), App Store
 Connect (privacy policy, support URL) and the Google Cloud OAuth consent screen.
