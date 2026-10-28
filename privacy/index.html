@@ -21,12 +21,12 @@
   <main>
     <article data-lang="en">
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective 24 October 2026 · Applies to the ColorSumi apps for iOS, iPadOS and Android (<code>com.colorsumi.app</code>).</p>
+      <p class="meta">Effective 28 October 2026 · Applies to the ColorSumi apps for iOS, iPadOS and Android (<code>com.colorsumi.app</code>).</p>
 
-      <p>ColorSumi is a colour-by-number app. It works without an account, shows no ads, and contains no analytics or advertising SDKs. This page explains the little data it does handle.</p>
+      <p>ColorSumi is a colour-by-number app. It works without an account. The iOS and iPadOS app shows ads from Google AdMob, which a one-time purchase removes; the Android app shows no ads. ColorSumi contains no analytics SDKs and does not track you. This page explains the data it handles.</p>
 
       <h2>1. Data that stays on your device</h2>
-      <p>Your colouring progress, brush strokes, downloaded pictures and settings (such as language) are stored locally on your device. If you never sign in, nothing about you is sent to us other than the ordinary requests described in section 3.</p>
+      <p>Your colouring progress, brush strokes, downloaded pictures and settings (such as language) are stored locally on your device, as are the number of hints you used today and whether you bought "Remove ads". If you never sign in, nothing about you is sent to us other than the ordinary requests described in section 3.</p>
 
       <h2>2. Data we store when you sign in (optional)</h2>
       <p>You can sign in to carry your progress between devices. Signing in is never required. When you do, we store:</p>
@@ -40,40 +40,53 @@
       <h2>3. Technical data</h2>
       <p>When the app downloads the picture catalogue or syncs, our hosting provider (Supabase) receives standard request data such as your IP address and request time in its server logs. These logs are kept for a short period for security and reliability, and are not combined with your account for any other purpose.</p>
 
-      <h2>4. Third-party services</h2>
+      <h2>4. Ads and purchases (iOS and iPadOS)</h2>
+      <p>The iOS and iPadOS app shows a banner ad under the palette, and offers a short rewarded video ad when you want more than five hints on a picture in a day. The ads come from <strong>Google AdMob</strong>.</p>
+      <ul>
+        <li>Every ad request is marked <strong>child-directed</strong> and limited to general-audience content, so Google serves only <strong>non-personalised</strong> ads, for every player.</li>
+        <li>The app does not ask to track you (no App Tracking Transparency prompt) and does not use the advertising identifier (IDFA).</li>
+        <li>To show ads, measure them and prevent fraud, Google's SDK collects data such as your IP address (from which an approximate location can be derived), device and app information, ad interactions, and crash and performance diagnostics. Google handles this data under its own policies: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from apps that use its services</a>.</li>
+        <li>In the EEA, the UK and other regions where Google requires it, the app asks for your consent through Google's consent form before showing any ad. You can change your choice at any time in Settings → Ads → Privacy options. Without consent, no ads are shown.</li>
+        <li>We never send your email address, account identifier or colouring progress to Google for advertising.</li>
+      </ul>
+      <p><strong>Remove ads</strong> is a one-time in-app purchase handled by Apple through the App Store. We never receive your payment details: the app only learns from Apple that the purchase exists, and remembers it on your device. Use Settings → Ads → Restore purchases on a new device.</p>
+
+      <h2>5. Third-party services</h2>
       <ul>
         <li><strong>Supabase</strong>: hosts our database, authentication and picture files. <a href="https://supabase.com/privacy" rel="noopener">Supabase privacy policy</a>.</li>
         <li><strong>Apple</strong> (Sign in with Apple) and <strong>Google</strong> (Google sign-in): only if you choose them to sign in. They tell us your email address (Apple may give a private relay address). <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple</a> · <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</li>
+        <li><strong>Google AdMob</strong> (iOS and iPadOS only): serves the ads described in section 4. <a href="https://policies.google.com/privacy" rel="noopener">Google privacy policy</a>.</li>
+        <li><strong>Apple App Store</strong>: processes the "Remove ads" purchase. <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple privacy policy</a>.</li>
       </ul>
-      <p>The app does not use advertising, analytics or crash-reporting SDKs, and does not track you across other apps or websites.</p>
+      <p>Apart from Google AdMob in the iOS and iPadOS app, ColorSumi uses no advertising, analytics or crash-reporting SDKs, and does not track you across other apps or websites.</p>
 
-      <h2>5. Retention and deletion</h2>
+      <h2>6. Retention and deletion</h2>
       <p>Synced data is kept while your account exists. Deleting your account permanently removes your email, identifier and all synced progress from our systems within 30 days. Local data is removed when you uninstall the app. See <a href="../delete-account/">How to delete your account</a>.</p>
 
-      <h2>6. Your rights</h2>
+      <h2>7. Your rights</h2>
       <p>You can ask us at any time to see, correct or delete the data linked to your account. Email <a href="mailto:support@colorsumi.app">support@colorsumi.app</a> from the address you signed in with. If you are in the EU/EEA, UK or another region with data-protection law, you also have the right to lodge a complaint with your local authority.</p>
 
-      <h2>7. Children</h2>
-      <p>ColorSumi is suitable for all ages, but accounts are intended for users aged 13 and over (or the age of digital consent in your country). Children can use the app fully without signing in. If you believe a child has created an account, contact us and we will delete it.</p>
+      <h2>8. Children</h2>
+      <p>ColorSumi is suitable for all ages, but accounts are intended for users aged 13 and over (or the age of digital consent in your country). Children can use the app fully without signing in. Ads are always requested as child-directed and non-personalised, so children see only general-audience ads, and the "Remove ads" purchase goes through Apple, where Ask to Buy and Screen Time apply. If you believe a child has created an account, contact us and we will delete it.</p>
 
-      <h2>8. Security</h2>
+      <h2>9. Security</h2>
       <p>Data is sent over HTTPS. The database is not accessible to clients directly; all access goes through our server functions, and each account can only reach its own data.</p>
 
-      <h2>9. Changes</h2>
+      <h2>10. Changes</h2>
       <p>If this policy changes, we will update this page and the effective date above. Significant changes will be noted in the app.</p>
 
-      <h2>10. Contact</h2>
+      <h2>11. Contact</h2>
       <p>ColorSumi · <a href="mailto:support@colorsumi.app">support@colorsumi.app</a></p>
     </article>
 
     <article data-lang="vi" hidden>
       <h1>Chính sách quyền riêng tư</h1>
-      <p class="meta">Hiệu lực từ 24/10/2026 · Áp dụng cho ứng dụng ColorSumi trên iOS, iPadOS và Android (<code>com.colorsumi.app</code>).</p>
+      <p class="meta">Hiệu lực từ 28/10/2026 · Áp dụng cho ứng dụng ColorSumi trên iOS, iPadOS và Android (<code>com.colorsumi.app</code>).</p>
 
-      <p>ColorSumi là ứng dụng tô màu theo số. Ứng dụng dùng được mà không cần tài khoản, không có quảng cáo, không chứa SDK phân tích hay quảng cáo. Trang này giải thích phần dữ liệu nhỏ mà ứng dụng xử lý.</p>
+      <p>ColorSumi là ứng dụng tô màu theo số. Ứng dụng dùng được mà không cần tài khoản. Bản iOS và iPadOS hiển thị quảng cáo của Google AdMob, có thể tắt bằng một lần mua; bản Android không có quảng cáo. ColorSumi không chứa SDK phân tích và không theo dõi bạn. Trang này giải thích dữ liệu mà ứng dụng xử lý.</p>
 
       <h2>1. Dữ liệu chỉ nằm trên thiết bị của bạn</h2>
-      <p>Tiến độ tô màu, nét vẽ, tranh đã tải và cài đặt (như ngôn ngữ) được lưu cục bộ trên thiết bị. Nếu bạn không đăng nhập, chúng tôi không nhận thông tin gì về bạn ngoài các yêu cầu kỹ thuật thông thường nêu ở mục 3.</p>
+      <p>Tiến độ tô màu, nét vẽ, tranh đã tải và cài đặt (như ngôn ngữ) được lưu cục bộ trên thiết bị, cùng với số gợi ý bạn đã dùng trong ngày và việc bạn đã mua "Xoá quảng cáo" hay chưa. Nếu bạn không đăng nhập, chúng tôi không nhận thông tin gì về bạn ngoài các yêu cầu kỹ thuật thông thường nêu ở mục 3.</p>
 
       <h2>2. Dữ liệu chúng tôi lưu khi bạn đăng nhập (tuỳ chọn)</h2>
       <p>Bạn có thể đăng nhập để đồng bộ tiến độ giữa các thiết bị. Đăng nhập không bao giờ là bắt buộc. Khi bạn đăng nhập, chúng tôi lưu:</p>
@@ -87,29 +100,42 @@
       <h2>3. Dữ liệu kỹ thuật</h2>
       <p>Khi ứng dụng tải danh mục tranh hoặc đồng bộ, nhà cung cấp hạ tầng của chúng tôi (Supabase) nhận dữ liệu yêu cầu tiêu chuẩn như địa chỉ IP và thời gian yêu cầu trong nhật ký máy chủ. Nhật ký này được giữ trong thời gian ngắn để bảo mật và vận hành, không kết hợp với tài khoản của bạn cho mục đích khác.</p>
 
-      <h2>4. Dịch vụ bên thứ ba</h2>
+      <h2>4. Quảng cáo và mua hàng (iOS và iPadOS)</h2>
+      <p>Bản iOS và iPadOS hiển thị một quảng cáo banner dưới bảng màu, và đề nghị một video quảng cáo ngắn có thưởng khi bạn muốn dùng quá năm gợi ý cho một bức tranh trong ngày. Quảng cáo do <strong>Google AdMob</strong> cung cấp.</p>
+      <ul>
+        <li>Mọi yêu cầu quảng cáo đều được đánh dấu <strong>hướng tới trẻ em</strong> và giới hạn ở nội dung cho mọi lứa tuổi, nên Google chỉ hiển thị quảng cáo <strong>không cá nhân hoá</strong>, cho mọi người chơi.</li>
+        <li>Ứng dụng không xin quyền theo dõi bạn (không có hộp thoại App Tracking Transparency) và không dùng mã định danh quảng cáo (IDFA).</li>
+        <li>Để hiển thị, đo lường quảng cáo và chống gian lận, SDK của Google thu thập dữ liệu như địa chỉ IP (có thể suy ra vị trí gần đúng), thông tin thiết bị và ứng dụng, tương tác với quảng cáo, dữ liệu chẩn đoán về lỗi và hiệu năng. Google xử lý dữ liệu này theo chính sách của họ: <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">Cách Google sử dụng thông tin từ ứng dụng dùng dịch vụ của Google</a>.</li>
+        <li>Ở EEA, Anh và các khu vực khác mà Google yêu cầu, ứng dụng xin sự đồng ý của bạn qua biểu mẫu của Google trước khi hiển thị bất kỳ quảng cáo nào. Bạn có thể đổi lựa chọn bất cứ lúc nào trong Cài đặt → Quảng cáo → Tuỳ chọn quyền riêng tư. Nếu không có sự đồng ý, ứng dụng không hiển thị quảng cáo.</li>
+        <li>Chúng tôi không bao giờ gửi email, mã định danh tài khoản hay tiến độ tô màu của bạn cho Google để phục vụ quảng cáo.</li>
+      </ul>
+      <p><strong>Xoá quảng cáo</strong> là giao dịch mua một lần trong ứng dụng, do Apple xử lý qua App Store. Chúng tôi không bao giờ nhận thông tin thanh toán của bạn: ứng dụng chỉ được Apple cho biết giao dịch đã có, và ghi nhớ điều đó trên thiết bị. Trên thiết bị mới, dùng Cài đặt → Quảng cáo → Khôi phục giao dịch.</p>
+
+      <h2>5. Dịch vụ bên thứ ba</h2>
       <ul>
         <li><strong>Supabase</strong>: lưu trữ cơ sở dữ liệu, xác thực và tệp tranh. <a href="https://supabase.com/privacy" rel="noopener">Chính sách quyền riêng tư của Supabase</a>.</li>
         <li><strong>Apple</strong> (Sign in with Apple) và <strong>Google</strong> (đăng nhập Google): chỉ khi bạn chọn để đăng nhập. Họ cung cấp cho chúng tôi địa chỉ email của bạn (Apple có thể cung cấp địa chỉ chuyển tiếp ẩn danh). <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple</a> · <a href="https://policies.google.com/privacy" rel="noopener">Google</a>.</li>
+        <li><strong>Google AdMob</strong> (chỉ iOS và iPadOS): cung cấp quảng cáo nêu ở mục 4. <a href="https://policies.google.com/privacy" rel="noopener">Chính sách quyền riêng tư của Google</a>.</li>
+        <li><strong>Apple App Store</strong>: xử lý giao dịch "Xoá quảng cáo". <a href="https://www.apple.com/legal/privacy/" rel="noopener">Chính sách quyền riêng tư của Apple</a>.</li>
       </ul>
-      <p>Ứng dụng không dùng SDK quảng cáo, phân tích hay báo lỗi, và không theo dõi bạn trên các ứng dụng hay trang web khác.</p>
+      <p>Ngoài Google AdMob trong bản iOS và iPadOS, ColorSumi không dùng SDK quảng cáo, phân tích hay báo lỗi nào, và không theo dõi bạn trên các ứng dụng hay trang web khác.</p>
 
-      <h2>5. Lưu giữ và xoá</h2>
+      <h2>6. Lưu giữ và xoá</h2>
       <p>Dữ liệu đồng bộ được giữ khi tài khoản còn tồn tại. Xoá tài khoản sẽ xoá vĩnh viễn email, mã định danh và toàn bộ tiến độ đã đồng bộ khỏi hệ thống của chúng tôi trong vòng 30 ngày. Dữ liệu cục bộ bị xoá khi bạn gỡ ứng dụng. Xem <a href="../delete-account/">Cách xoá tài khoản</a>.</p>
 
-      <h2>6. Quyền của bạn</h2>
+      <h2>7. Quyền của bạn</h2>
       <p>Bạn có thể yêu cầu xem, sửa hoặc xoá dữ liệu gắn với tài khoản bất cứ lúc nào. Gửi email tới <a href="mailto:support@colorsumi.app">support@colorsumi.app</a> từ địa chỉ bạn đã dùng để đăng nhập. Nếu bạn ở EU/EEA, Anh hoặc khu vực có luật bảo vệ dữ liệu, bạn cũng có quyền khiếu nại với cơ quan quản lý địa phương.</p>
 
-      <h2>7. Trẻ em</h2>
-      <p>ColorSumi phù hợp mọi lứa tuổi, nhưng tài khoản dành cho người dùng từ 13 tuổi (hoặc độ tuổi đồng ý số tại quốc gia của bạn). Trẻ em có thể dùng đầy đủ ứng dụng mà không cần đăng nhập. Nếu bạn cho rằng một trẻ em đã tạo tài khoản, hãy liên hệ để chúng tôi xoá.</p>
+      <h2>8. Trẻ em</h2>
+      <p>ColorSumi phù hợp mọi lứa tuổi, nhưng tài khoản dành cho người dùng từ 13 tuổi (hoặc độ tuổi đồng ý số tại quốc gia của bạn). Trẻ em có thể dùng đầy đủ ứng dụng mà không cần đăng nhập. Quảng cáo luôn được yêu cầu ở chế độ hướng tới trẻ em và không cá nhân hoá, nên trẻ chỉ thấy quảng cáo dành cho mọi lứa tuổi; giao dịch "Xoá quảng cáo" đi qua Apple, nơi áp dụng Ask to Buy và Thời gian sử dụng. Nếu bạn cho rằng một trẻ em đã tạo tài khoản, hãy liên hệ để chúng tôi xoá.</p>
 
-      <h2>8. Bảo mật</h2>
+      <h2>9. Bảo mật</h2>
       <p>Dữ liệu được truyền qua HTTPS. Ứng dụng không truy cập trực tiếp cơ sở dữ liệu; mọi truy cập đi qua các hàm máy chủ của chúng tôi, và mỗi tài khoản chỉ chạm tới dữ liệu của chính mình.</p>
 
-      <h2>9. Thay đổi</h2>
+      <h2>10. Thay đổi</h2>
       <p>Khi chính sách thay đổi, chúng tôi sẽ cập nhật trang này và ngày hiệu lực ở trên. Thay đổi quan trọng sẽ được thông báo trong ứng dụng.</p>
 
-      <h2>10. Liên hệ</h2>
+      <h2>11. Liên hệ</h2>
       <p>ColorSumi · <a href="mailto:support@colorsumi.app">support@colorsumi.app</a></p>
     </article>
   </main>
